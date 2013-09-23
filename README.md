@@ -1,5 +1,9 @@
-cast-ios-tictactoe
+cast-ios-willyoumerryme-tictactoe
 ==================
+
+iOS Modifications (now fits on iPhone 5 screen) also changes message for winner to tell them to look up at the scree,
+
+
 
 This iOS Tic Tac Toe shows basic comminication via channels to a javacript
 program running in Chromecast and how to create/end/resume/destroy a session.
