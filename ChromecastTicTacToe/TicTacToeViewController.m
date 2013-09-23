@@ -78,7 +78,7 @@ static const NSInteger kTagPlayAgain = 2;
   NSDictionary *viewsDictionary =
       NSDictionaryOfVariableBindings(_ticTacToeView, _gameStatusLabel);
   NSMutableArray *constraints = [[NSMutableArray alloc] initWithCapacity:2];
-  [constraints addObjectsFromArray:
+    [constraints addObjectsFromArray:
      [NSLayoutConstraint constraintsWithVisualFormat:@"|-[_ticTacToeView]-|"
                                              options:0
                                              metrics:nil
@@ -88,12 +88,12 @@ static const NSInteger kTagPlayAgain = 2;
                                               options:0
                                               metrics:nil
                                                 views:viewsDictionary]];
-  [constraints addObjectsFromArray:
-      [NSLayoutConstraint constraintsWithVisualFormat:
-          @"V:|-[_ticTacToeView(300)]-[_gameStatusLabel]"
-                                              options:0
-                                              metrics:nil
-                                                views:viewsDictionary]];
+    [constraints addObjectsFromArray:
+     [NSLayoutConstraint constraintsWithVisualFormat:
+      @"V:|-[_ticTacToeView(300)]-[_gameStatusLabel]"
+                                             options:0
+                                             metrics:nil
+                                               views:viewsDictionary]];
   [self.view addConstraints:constraints];
 
   _boardState = [[TicTacToeBoardState alloc] init];
@@ -120,7 +120,7 @@ static const NSInteger kTagPlayAgain = 2;
   _session = [self createSession];
   _session.delegate = self;
 
-  [_session startSessionWithApplication:kReceiverApplicationName];
+  [_session startSessionWithApplication:kReceiverApplicationName argument:nil];
 }
 
 // End the current application session.
@@ -141,14 +141,12 @@ static const NSInteger kTagPlayAgain = 2;
 // play again or leave.
 - (void)showGameOverMessage:(NSString *)message {
   NSString *title = NSLocalizedString(@"Game over", nil);
-  NSString *cancelButtonTitle = NSLocalizedString(@"Leave", nil);
-  NSString *playAgainButtonTitle = NSLocalizedString(@"Play again", nil);
+  NSString *cancelButtonTitle = NSLocalizedString(@"I love you", nil);
+  //NSString *playAgainButtonTitle = NSLocalizedString(@"Play again", nil);
   UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title
                                                   message:message
                                                  delegate:nil
-                                        cancelButtonTitle:cancelButtonTitle
-                                        otherButtonTitles:playAgainButtonTitle,
-                        nil];
+                                        cancelButtonTitle:cancelButtonTitle otherButtonTitles:nil];
   alert.tag = kTagPlayAgain;
   alert.delegate = self;
   [alert show];
@@ -346,7 +344,7 @@ static const NSInteger kTagPlayAgain = 2;
                                              atIndex:(NSUInteger)index];
       NSString *message;
       if (result == kResultYouWon) {
-        message = NSLocalizedString(@"A winner is you! Play again?", nil);
+        message = NSLocalizedString(@"I couldn't ask for anything better than to lose to my beauty! look up at the screen", nil);
       } else {
         message = NSLocalizedString(@"You lost! Play again?", nil);
       }

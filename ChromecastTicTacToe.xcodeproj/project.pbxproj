@@ -15,14 +15,16 @@
 		277D8E5616E81E1F0072EF51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277D8E5516E81E1F0072EF51 /* CoreGraphics.framework */; };
 		277D8E5E16E81E1F0072EF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 277D8E5D16E81E1F0072EF51 /* main.m */; };
 		277D8E6216E81E1F0072EF51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 277D8E6116E81E1F0072EF51 /* AppDelegate.m */; };
-		277D8E6416E81E1F0072EF51 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 277D8E6316E81E1F0072EF51 /* Default.png */; };
 		277D8E6B16E81E1F0072EF51 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277D8E6916E81E1F0072EF51 /* MainStoryboard_iPhone.storyboard */; };
 		277D8E7116E81E1F0072EF51 /* DeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277D8E7016E81E1F0072EF51 /* DeviceListViewController.m */; };
 		277D8E7416E81E1F0072EF51 /* TicTacToeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277D8E7316E81E1F0072EF51 /* TicTacToeViewController.m */; };
 		278E46F316E9664600A89D73 /* TicTacToeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 278E46F216E9664600A89D73 /* TicTacToeView.m */; };
 		278E472216E9717400A89D73 /* TicTacToeBoardState.m in Sources */ = {isa = PBXBuildFile; fileRef = 278E472116E9717400A89D73 /* TicTacToeBoardState.m */; };
 		278E472516EA99FC00A89D73 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278E472416EA99FC00A89D73 /* SettingsViewController.m */; };
-		68102B67171F856A00463902 /* GCKFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68102B66171F856A00463902 /* GCKFramework.framework */; };
+		C8FE22B417ED6560008B4693 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C8FE22B117ED6560008B4693 /* Default.png */; };
+		C8FE22B517ED6560008B4693 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8FE22B217ED6560008B4693 /* Default@2x.png */; };
+		C8FE22B617ED6560008B4693 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8FE22B317ED6560008B4693 /* Default-568h@2x.png */; };
+		E566030A17DFB8110077A4C5 /* GCKFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E566030917DFB8110077A4C5 /* GCKFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +42,6 @@
 		277D8E5F16E81E1F0072EF51 /* ChromecastTicTacToe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChromecastTicTacToe-Prefix.pch"; sourceTree = "<group>"; };
 		277D8E6016E81E1F0072EF51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		277D8E6116E81E1F0072EF51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		277D8E6316E81E1F0072EF51 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		277D8E6A16E81E1F0072EF51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		277D8E6F16E81E1F0072EF51 /* DeviceListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceListViewController.h; sourceTree = "<group>"; };
 		277D8E7016E81E1F0072EF51 /* DeviceListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceListViewController.m; sourceTree = "<group>"; };
@@ -52,7 +53,10 @@
 		278E472116E9717400A89D73 /* TicTacToeBoardState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToeBoardState.m; sourceTree = "<group>"; };
 		278E472316EA99FC00A89D73 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		278E472416EA99FC00A89D73 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		68102B66171F856A00463902 /* GCKFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GCKFramework.framework; sourceTree = "<group>"; };
+		C8FE22B117ED6560008B4693 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C8FE22B217ED6560008B4693 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C8FE22B317ED6560008B4693 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E566030917DFB8110077A4C5 /* GCKFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GCKFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68102B67171F856A00463902 /* GCKFramework.framework in Frameworks */,
 				275A6B1B16E92C23009F393F /* CFNetwork.framework in Frameworks */,
 				275A6B1916E92C1A009F393F /* Security.framework in Frameworks */,
 				277D8E5216E81E1F0072EF51 /* UIKit.framework in Frameworks */,
 				277D8E5416E81E1F0072EF51 /* Foundation.framework in Frameworks */,
 				277D8E5616E81E1F0072EF51 /* CoreGraphics.framework in Frameworks */,
+				E566030A17DFB8110077A4C5 /* GCKFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +97,7 @@
 		277D8E5016E81E1F0072EF51 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				68102B66171F856A00463902 /* GCKFramework.framework */,
+				E566030917DFB8110077A4C5 /* GCKFramework.framework */,
 				275A6B1A16E92C23009F393F /* CFNetwork.framework */,
 				277D8E5516E81E1F0072EF51 /* CoreGraphics.framework */,
 				277D8E5316E81E1F0072EF51 /* Foundation.framework */,
@@ -130,7 +134,9 @@
 			children = (
 				277D8E5916E81E1F0072EF51 /* ChromecastTicTacToe-Info.plist */,
 				277D8E5F16E81E1F0072EF51 /* ChromecastTicTacToe-Prefix.pch */,
-				277D8E6316E81E1F0072EF51 /* Default.png */,
+				C8FE22B117ED6560008B4693 /* Default.png */,
+				C8FE22B217ED6560008B4693 /* Default@2x.png */,
+				C8FE22B317ED6560008B4693 /* Default-568h@2x.png */,
 				277D8E5D16E81E1F0072EF51 /* main.m */,
 				277D8E6916E81E1F0072EF51 /* MainStoryboard_iPhone.storyboard */,
 			);
@@ -165,6 +171,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Google;
+				TargetAttributes = {
+					277D8E4D16E81E1F0072EF51 = {
+						DevelopmentTeam = AQNYKQRTDP;
+					};
+				};
 			};
 			buildConfigurationList = 277D8E4916E81E1F0072EF51 /* Build configuration list for PBXProject "ChromecastTicTacToe" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -188,8 +199,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				277D8E6416E81E1F0072EF51 /* Default.png in Resources */,
+				C8FE22B517ED6560008B4693 /* Default@2x.png in Resources */,
+				C8FE22B617ED6560008B4693 /* Default-568h@2x.png in Resources */,
 				277D8E6B16E81E1F0072EF51 /* MainStoryboard_iPhone.storyboard in Resources */,
+				C8FE22B417ED6560008B4693 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +255,8 @@
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Toby Peters (XXSS52A6SU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Toby Peters (XXSS52A6SU)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -273,6 +287,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "9D82E0F1-5AD6-41CE-A7F1-F604017AF94A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1BF647D4-131B-486B-9EDD-FC22B38F9586";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,7 +311,8 @@
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Toby Peters (XXSS52A6SU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Toby Peters (XXSS52A6SU)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
@@ -319,6 +336,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "9D82E0F1-5AD6-41CE-A7F1-F604017AF94A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1BF647D4-131B-486B-9EDD-FC22B38F9586";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -328,6 +347,8 @@
 		277D8E7816E81E1F0072EF51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Toby Peters (XXSS52A6SU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -338,6 +359,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = ChromecastTicTacToe;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -346,6 +368,8 @@
 		277D8E7916E81E1F0072EF51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Toby Peters (XXSS52A6SU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -356,6 +380,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = ChromecastTicTacToe;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

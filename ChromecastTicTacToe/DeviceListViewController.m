@@ -100,6 +100,7 @@
 
 - (void)deviceDidComeOnline:(GCKDevice *)device {
   if (![_devices containsObject:device]) {
+      NSLog(@"%@", device.ipAddress);
     [_devices addObject:device];
     [self.tableView reloadData];
   }
